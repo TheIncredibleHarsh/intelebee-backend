@@ -7,6 +7,6 @@ architecture = "x86_64"
 handler = "src/handlers/get-all-items.helloWorldHandler"
 manifest_hash = "228181ac1b887fead2f69eeaa32f190b"
 packagetype = "Zip"
-functions = ["getAllItemsFunction", "getByIdFunction", "putItemFunction"]
+functions = ["getAllItemsFunction"]
 
 [layer_build_definitions]
